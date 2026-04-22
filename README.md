@@ -1,5 +1,7 @@
 # Ex.No: 1B                     CONVERSION OF NON STATIONARY TO STATIONARY DATA
-# Date: 
+# Date: 22/04/2025
+### NAME : SANJAY C
+### REG NO : 212223240150
 
 ### AIM:
 To perform regular differncing,seasonal adjustment and log transformatio on international airline passenger data
@@ -10,7 +12,8 @@ To perform regular differncing,seasonal adjustment and log transformatio on inte
 4. Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
 5. Display the overall results.
 ### PROGRAM:
-
+```PY
+```
 
 ### OUTPUT:
 
