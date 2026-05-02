@@ -5,6 +5,11 @@
 
 ### AIM:
 To perform regular differncing,seasonal adjustment and log transformatio on international airline passenger data
+### REQUIREMENTS:
+```
+1.DATASET : APPLE STOCK PRICE
+2.TECHNOLOGY USED : GOOGLE COLLAB
+```
 ### ALGORITHM:
 1. Import the required packages like pandas and numpy
 2. Read the data using the pandas
