@@ -31,7 +31,8 @@ data['volume_diff'] = data['Volume'].diff()
 data['volume_log'] = data['Volume'].apply(lambda x: np.log(x) if x > 0 else np.nan)
 data['volume_log_diff'] = data['volume_log'].diff()
 
-data['volume_sea_diff'] = seasonal_decompose(data['Volume'], model='additive', period=12).residcleaned_volume_log_diff = data['volume_log_diff'].dropna()
+data['volume_sea_diff'] = seasonal_decompose(data['Volume'], model='additive', period=12).resid
+cleaned_volume_log_diff = data['volume_log_diff'].dropna()
 if len(cleaned_volume_log_diff) >= 2 * 12:
     data['volume_log_seasonal_diff'] = seasonal_decompose(
         cleaned_volume_log_diff, model='additive', period=12
